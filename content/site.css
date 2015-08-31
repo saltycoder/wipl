@@ -1,0 +1,82 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+/* Banner
+-------------------------------------------------- */
+.banner {
+    background-image: linear-gradient(to bottom, #A90329 0%, #8F0222 44%, #6D0019 100%);
+    box-shadow: 0 4px 2px -2px #000;
+}
+.banner-text{
+    color:#ffffff;
+}
+
+
+/* Form validator - http://formvalidator.net
+-------------------------------------------------- */
+.help-block {
+    display: inline;
+    padding-left: 6px;
+    font-size: 85%;
+}
+
+span.form-error.help-block {
+    display: block;
+    color: red;
+    margin-top: 6px;
+    padding-left: 0;
+}
+
+div.form-error {
+    padding: 6px 12px;
+    line-height: 180%;
+    background: #ffe5ed;
+    border-radius: 4px;
+    margin-bottom: 22px;
+    color: darkred;
+}
+
+input.valid {
+    background: url(../images/icon-ok.png) no-repeat right center #e3ffe5;
+    color: #002f00;
+    border-color: #96b796 !important;
+}
+
+input.error {
+    background: url(../images/icon-fail.png) no-repeat right center #ffebef;
+    color: #480000;
+}
+
+.form-suggest-element {
+    padding: 4px;
+}
+
+
+.max-chars {
+    background: #EEE;
+    color: #999;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Create New User Form (CreateUser.php)
+-------------------------------------------------- */
+#txtName, #txtEmail, #txtPassword {
+    width:500px;
+}
