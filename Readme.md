@@ -1,9 +1,5 @@
 ## Web Interception Proxy Lab (WIPL) v0.5
 
-Project Team:
-* Rich Grimes - @saltyCoder
-* Copyright 2015 by Rich Grimes
-
 ## Synopsis
 
 The Web Interception Proxy Lab (WIPL) is a vulnerable web application that can be used to demo web interception proxies such as Burp Suite, OWASP ZAP, and Fiddler.  It can also be used for training and hacking practices.
